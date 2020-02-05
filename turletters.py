@@ -168,11 +168,23 @@ def turtleLetter(letter,tur):
 	tur.right(90)
 	tur.forward(50)
     elif letter == "X":
-	    pass
+	tur.setheading(0)
+    	tur.right(45)
+    	tur.forward(100)
+    	tur.backward(50)
+   	tur.right(90)
+   	tur.forward(50)
+    	tur.backward(100)
     elif letter == "Y":
 	    pass
     elif letter == "Z":
-	    pass		
+	tur.setheading(0)
+	tur.forward(100)
+    	tur.backward(100)
+   	tur.right(51)
+    	tur.forward(155)
+   	tur.right(130)
+   	tur.forward(100)		
 
         
     elif letter == "Ax":
