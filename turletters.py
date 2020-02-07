@@ -170,7 +170,20 @@ import turtle
 		tur.penup()
 		tur.forward(10)
 	    elif letter == "M":
-		    pass
+		tur.penup()
+		tur.setpos(-35,-40)
+		tur.right(270)
+		tur.pendown()
+		tur.forward(40)
+		tur.right(135)
+		tur.forward(28)
+		tur.left(100)
+		tur.forward(28)
+		tur.right(145)
+		tur.forward(40)
+		tur.clear()
+		tur.penup()
+
 	    elif letter == "N":
 		tur.setheading(0)
 		tur.pendown()
@@ -215,11 +228,44 @@ import turtle
 	        tur.right(90)	
 			
 	    elif letter == "Q":
-		    pass
+		  tur.penup()
+		tur.setpos(-35,-40)
+		tur.pendown()
+		for i in range(23):
+    			tur.forward(8)
+    			tur.left(18)
+		tur.penup()
+		tur.left(90)
+		tur.forward(15)
+		tur.right(180)
+		tur.pendown()
+		tur.forward(30)
+
 	    elif letter == "R":
-		    pass
+		tur.penup()
+		tur.setpos(-35,-40)
+		tur.right(270)
+		tur.pendown()
+		tur.forward(40)
+		tur.right(90)
+		for i in range(12):
+    			tur.forward(3)
+    			tur.right(16)
+		tur.right(215)
+		tur.forward(30)
+
 	    elif letter == "S":
-		    pass
+		tur.penup()
+		tur.setpos(35,45)
+		tur.right(185)
+		tur.pendown()
+		for i in range(9):
+			tur.forward(6)
+    			tur.left(20)
+		for i in range(13):
+    			tur.forward(6)
+   			tur.right(19)
+
 	    elif letter == "T":
 		tur.setheading(0)
 		tur.pendown()
