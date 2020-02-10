@@ -16,7 +16,7 @@ import turtle
 
 	    elif letter == "A":
 	        tur.setheading(0)
-	        tur.(pd)
+	        tur.pd()
 	        tur.fd(5)
 	        tur.right(90)
 	        tur.fd(5)
@@ -32,7 +32,7 @@ import turtle
 	        tur.fd(15)
 	        tur.left(90)
 	        tur.fd(20)
-	        tur.(pd)
+	        tur.(pu)
 	        #fixes
 	        tur.right(90)
 	        tur.fd(20)
@@ -42,7 +42,7 @@ import turtle
 		
 	    elif letter == "B":
 		tur.setheading(0)
-		tur.(pd)
+		tur.pd()
 		tur.fd(12)
 		tur.right(90)
 		tur.fd(10)
@@ -52,7 +52,7 @@ import turtle
 		tur.circle(10,180)
 		tur.left(180)
 		tur.circle(10,180)
-		tur.(pd)
+		tur.(pu)
 		tur.left(180)
 		tur.fd(28)
 		tur.left(90)
@@ -61,14 +61,14 @@ import turtle
 		
 	    elif letter == "C":
 		tur.setheading(0)
-		tur.(pd)
+		tur.pd()
 		tur.fd(25)
 		tur.right(90)
 		tur.fd(10)
 		tur.right(90)
 		tur.pd()
 		tur.circle(21,200)
-		tur.(pd)
+		tur.(pu)
 		tur.fd(9)
 		tur.left(70)
 		tur.fd(48)
@@ -76,7 +76,7 @@ import turtle
 		
 	    elif letter == "D":
 		tur.setheading(0)
-		tur.(pd)
+		tur.pd()
 		tur.fd(15)
 		tur.right(90)
 	        tur.fd(10)
@@ -84,7 +84,7 @@ import turtle
 	        tur.fd(40)
 	        tur.left(90)
 		tur.circle(18,235)
-		tur.(pd)
+		tur.pu()
 		tur.right(150)
 		tur.fd(25)
 		tur.right(90)
@@ -109,7 +109,7 @@ import turtle
 		
 	    elif letter == "F":
 		tur.setheading(0)
-		tur.(pd)
+		tur.pd()
 		tur.fd(15)
 		tur.right(90)
 		tur.fd(10)
@@ -124,7 +124,7 @@ import turtle
 		tur.fd(20)
 		tur.right(90)
 		tur.fd(20)
-		tur.(pd)
+		tur.(pu)
 		tur.fd(5)
 		tur.left(90)
 		tur.fd(10)
@@ -154,7 +154,7 @@ import turtle
 		tur.forward(10)	
 		
 	    elif letter == "H":
-		 tur.penup()
+		tur.penup()
 		tur.setpos(-35,-40)
 		tur.right(270)
 		tur.pendown()
@@ -273,7 +273,7 @@ import turtle
 	        tur.right(90)	
 			
 	    elif letter == "Q":
-		  tur.penup()
+		tur.penup()
 		tur.setpos(-35,-40)
 		tur.pendown()
 		for i in range(23):
