@@ -1,18 +1,18 @@
 	
 import turtle
 	
-
-	def turtleLetter(letter,tur):
-	    if letter=="box":
-	        tur.setheading(0)
-	        tur.forward(40)
-	        tur.right(90)
-	        tur.forward(60)
-	        tur.right(90)
-	        tur.forward(40)
-	        tur.right(90)
-	        tur.forward(60)
+def turtleLetter(letter,tur):
+    if letter=="box":
+	tur.setheading(0)
+	tur.forward(40)
+	tur.right(90)
+	tur.forward(60)
+	tur.right(90)
+	tur.forward(40)
+	tur.right(90)
+	tur.forward(60)
 	
+
 
 	    elif letter == "A":
 	        tur.setheading(0)
@@ -89,24 +89,26 @@ import turtle
 		tur.fd(25)
 		tur.right(90)
 		tur.fd(39)
+
 		
-	    elif letter == "E":
-		tur.setheading(0)
-		tur.pendown()
-		tur.back(40)
-		tur.left(270)
-		tur.forward(25)
-		tur.left(90)
-		tur.forward(25)
-		tur.back(25)
-		tur.left(270)
-		tur.forward(25)
-		tur.left(90)
-		tur.forward(40)
-		tur.penup()
-		tur.forward(10)
-		tur.pendown()
+elif letter == "E":
+    tur.setheading(0)
+    tur.pendown()
+    tur.back(40)
+    tur.left(270)
+    tur.forward(25)
+    tur.left(90)
+    tur.forward(25)
+    tur.back(25)
+    tur.left(270)
+    tur.forward(25)
+    tur.left(90)
+    tur.forward(40)
+    tur.penup()
+    tur.forward(10)
+    tur.pendown()
 		
+
 	    elif letter == "F":
 		tur.setheading(0)
 		tur.pd()
@@ -129,44 +131,46 @@ import turtle
 		tur.left(90)
 		tur.fd(10)
 		tur.right(90)
+
 		
-	    elif letter == "G":
-		tur.setheading(0)
-		tur.pendown()
-		tur.left(90)
-		tur.forward(20)
-		tur.left(90)
-		tur.forward(20)
-		tur.back(20)
-		tur.left(90)
-		tur.forward(20)
-		tur.right(90)
-		tur.forward(20)
-		tur.right(45)
-		tur.forward(30)
-		tur.right(45)
-		tur.forward(20)
-		tur.right(45)
-		tur.forward(20)
-		tur.right(45)
-		tur.forward(25)
-		tur.penup()
-		tur.forward(10)	
+elif letter == "G":
+    tur.setheading(0)
+    tur.pendown()
+    tur.left(90)
+    tur.forward(20)
+    tur.left(90)
+    tur.forward(20)
+    tur.back(20)
+    tur.left(90)
+    tur.forward(20)
+    tur.right(90)
+    tur.forward(20)
+    tur.right(45)
+    tur.forward(30)
+    tur.right(45)
+    tur.forward(20)
+    tur.right(45)
+    tur.forward(20)
+    tur.right(45)
+    tur.forward(25)
+    tur.penup()
+    tur.forward(10)	
 		
-	    elif letter == "H":
-		tur.setheading(0)
-		tur.pendown()
-		tur.setpos(-35,-40)
-		tur.right(270)
-		tur.pendown()
-		tur.forward(40)
-		tur.backward(20)
-		tur.right(90)
-		tur.forward(25)
-		tur.right(90)
-		tur.forward(20)
-		tur.right(180)
-		tur.forward(40)
+
+    elif letter == "H":
+		 tur.setheading(0)
+		 tur.pendown()
+		 tur.setpos(-35,-40)
+		 tur.right(270)
+		 tur.pendown()
+		 tur.forward(40)
+		 tur.backward(20)
+		 tur.right(90)
+		 tur.forward(25)
+		 tur.right(90)
+		 tur.forward(20)
+		 tur.right(180)
+		 tur.forward(40)
 
 	    elif letter == "I":
 		tur.setheading(0)
@@ -205,16 +209,32 @@ import turtle
 		tur.forward(30)
 		tur.clear()
 
-	    elif letter == "L":
-		tur.setheading(0)
-		tur.left(90)
-		tur.forward(50)
-		tur.back(50)
-		tur.right(90)
-		tur.forward(40)
-		tur.penup()
-		tur.forward(10)
+
+elif letter == "K":
+    tur.penup()
+    tur.setpos(-35,-40)
+    tur.right(270)
+    tur.pendown()
+    tur.forward(40)
+    tur.backward(20)
+    tur.right(40)
+    tur.forward(30)
+    tur.backward(30)
+    tur.right(90)
+    tur.forward(30)
+    tur.clear()
+
+elif letter == "L":
+    tur.setheading(0)
+    tur.left(90)
+    tur.forward(50)
+    tur.back(50)
+    tur.right(90)
+    tur.forward(40)
+    tur.penup()
+    tur.forward(10)
 		
+
 	    elif letter == "M":
 		tur.setheading(0)
 		tur.pendown()
@@ -231,30 +251,32 @@ import turtle
 		tur.clear()
 		tur.penup()
 
-	    elif letter == "N":
-		tur.setheading(0)
-		tur.pendown()
-		tur.right(90)
-		tur.forward(50)
-		tur.back(50)
-		tur.left(30)
-		tur.forward(60)
-		tur.left(150)
-		tur.forward(53)
-		tur.back(53)
-		tur.right(90)
-		tur.penup()
-		tur.forward(50)
+
+elif letter == "N":
+    tur.setheading(0)
+    tur.pendown()
+    tur.right(90)
+    tur.forward(50)
+    tur.back(50)
+    tur.left(30)
+    tur.forward(60)
+    tur.left(150)
+    tur.forward(53)
+    tur.back(53)
+    tur.right(90)
+    tur.penup()
+    tur.forward(50)
 		
-	    elif letter == "O":
-		tur.setheading(0)
-		tur.circle(25)
-		tur.penup()
-		tur.left(180)
-		tur.forward(25)
-		tur.left(90)
-		tur.forward(10)
+elif letter == "O":
+    tur.setheading(0)
+    tur.circle(25)
+    tur.penup()
+    tur.left(180)
+    tur.forward(25)
+    tur.left(90)
+    tur.forward(10)
 		
+
 	    elif letter == "P":
 		tur.setheading(0)
 		tur.pendown()
@@ -316,20 +338,22 @@ import turtle
     			tur.forward(6)
    			tur.right(19)
 
-	    elif letter == "T":
-		tur.setheading(0)
-		tur.pendown()
-		tur.forward(40)
-		tur.back(20)
-		tur.right(90)
-		tur.forward(50)
-		tur.left(90)
-		tur.penup()
-		tur.forward(70)
-		tur.left(90)
-		tur.forward(25)
-		tur.pendown()
+
+elif letter == "T":
+    tur.setheading(0)
+    tur.pendown()
+    tur.forward(40)
+    tur.back(20)
+    tur.right(90)
+    tur.forward(50)
+    tur.left(90)
+    tur.penup()
+    tur.forward(70)
+    tur.left(90)
+    tur.forward(25)
+    tur.pendown()
 		
+
 	    elif letter == "U":
 		tur.pendown()
 		tur.setpos(-35,-15)
@@ -352,68 +376,63 @@ import turtle
 		tur.left(115)
 		tur.forward(50)
 		tur.clear()
+
 		
-	    elif letter == "W":
-		tur.setheading(0)
-		tur.right(90)
-		tur.forward(50)
-		tur.left(150)
-		tur.forward(40)
-		tur.right(120)
-		tur.forward(40)
-		tur.left(150)
-		tur.forward(50)
-		tur.penup()
-		tur.right(90)
-		tur.forward(50)
+elif letter == "W":
+    tur.setheading(0)
+    tur.right(90)
+    tur.forward(50)
+    tur.left(150)
+    tur.forward(40)
+    tur.right(120)
+    tur.forward(40)
+    tur.left(150)
+    tur.forward(50)
+    tur.penup()
+    tur.right(90)
+    tur.forward(50)
 		
-	    elif letter == "X":
-		tur.setheading(0)
-	    	tur.right(45)
-	    	tur.forward(100)
-	    	tur.backward(50)
-	   	tur.right(90)
-	   	tur.forward(50)
-	    	tur.backward(100)
+elif letter == "X":
+    tur.setheading(0)
+    tur.right(45)
+    tur.forward(100)
+    tur.backward(50)
+    tur.right(90)
+    tur.forward(50)
+    tur.backward(100)
 		
-	    elif letter == "Y":
-		tur.pendown()
-		tur.setpos(-35,-15)
-		tur.left(35)
-		tur.pendown()
-		tur.right(90)
-		tur.forward(50)
-		tur.left(115)
-		tur.forward(50)
-		tur.backward(50)
-		tur.right(150)
-		tur.forward(45)
-		tur.clear()
+    elif letter == "Y":
+		 tur.pendown()
+		 tur.setpos(-35,-15)
+		 tur.left(35)
+		 tur.pendown()
+		 tur.right(90)
+		 tur.forward(50)
+		 tur.left(115)
+		 tur.forward(50)
+		 tur.backward(50)
+		 tur.right(150)
+		 tur.forward(45)
+		 tur.clear()
+
 		
-	    elif letter == "Z":
-		tur.setheading(0)
-		tur.forward(100)
-	    	tur.backward(100)
-	   	tur.right(51)
-	    	tur.forward(155)
-	   	tur.right(130)
-	   	tur.forward(100)		
+elif letter == "Z":
+    tur.setheading(0)
+    tur.forward(100)
+    tur.backward(100)
+    tur.right(51)
+    tur.forward(155)
+    tur.right(130)
+    tur.forward(100)		
 	
 
 	        
-	    elif letter == "Ax":
-	        # code here
-	        tur.forward(40)
-			
-	    else:
-	        #handles space, punctuation, and anything else
-	        tur.forward(40)
-		
-	if __name__ == "__main__":
-	    window = turtle.Screen()
-	    tur = turtle.Turtle()
-	    tur.speed(1)
-	    #turtleLetter("box",tur)
-	    turtleLetter("A",tur)
-	
 
+			
+	  
+if __name__ == "__main__":
+    window = turtle.Screen()
+    tur = turtle.Turtle()
+    tur.speed(1)
+    #turtleLetter("box",tur)
+    turtleLetter("A",tur)
